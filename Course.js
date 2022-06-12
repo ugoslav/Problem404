@@ -22,8 +22,8 @@ const Course = ({course}) => {
           <h1>{course.name}</h1>
           <ul>
               {course.parts.map(item => <li key={item.id}>{item.name} {item.exercises}</li>)}
-              <SumStatement arraya={course.parts} />
           </ul>
+          <SumStatement arraya={course.parts} />
       </div>
     );
   };
