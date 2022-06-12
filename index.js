@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import ExerciseTwo from './components/exerciseTwo';
+import ExerciseTwo from './exerciseTwo';
 
 {/*import {notes, secondNotes} from "./components/database";
 import GamesList from "./components/gamesList";
